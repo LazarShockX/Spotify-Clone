@@ -11,8 +11,8 @@ interface PlayerStore {
 const usePlayer = create<PlayerStore>((set) => ({
     ids: [],
     activeId: undefined,
-    setId: (id: string) => ({ activeId: id }),
-    setIds: (ids: string[]) => ({ ids: ids }),
+    setId: (id: string) => set({ activeId: id }),
+    setIds: (ids: string[]) => set({ ids: ids }),
     reset: () => set({ ids: [], activeId: undefined }),
 }));
 

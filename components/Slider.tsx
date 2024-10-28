@@ -13,7 +13,6 @@ const Slider: React.FC<SliderProps> = ({ value = 1, onChange }) => {
     }
 
     return (
-        <div>
             <RadixSlider.Root 
                 className="relative flex items-center select-none touch-none w-full h-10" 
                 defaultValue={[1]} 
@@ -27,7 +26,6 @@ const Slider: React.FC<SliderProps> = ({ value = 1, onChange }) => {
                         <RadixSlider.Range className="absolute bg-white rounded-full h-full" />
                     </RadixSlider.Track>
             </RadixSlider.Root>
-        </div>
     );
 }
 
