@@ -1,6 +1,6 @@
 # 🎵 Spotify-Clone
 
-A Spotify clone built with Next.js, React, Tailwind, Supabase, and PostgreSQL. It allows users to explore and stream music, manage playlists, and more. I have worked with RESTful APIs, state management, and responsive UI design.
+A Spotify clone built with Next.js, React, Tailwind, Supabase, and PostgreSQL. It allows users to explore and stream music, manage playlists, and more. The project uses RESTful APIs, state management, and responsive UI design.
 
 <img width="1424" alt="Screenshot 2024-11-08 at 16 23 05" src="https://github.com/user-attachments/assets/d0edeb72-1651-4d17-9ca2-14740768f1d4">
 
